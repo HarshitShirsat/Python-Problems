@@ -1,0 +1,5 @@
+str=input("Enter sequence of numbers seperated by commas - ")
+l=str.split(",")
+print("List - ",l)
+t=tuple(l)
+print("Tuple - ",t)

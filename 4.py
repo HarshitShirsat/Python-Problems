@@ -1,0 +1,5 @@
+str=input("Enter the string separated by commas - ")
+l=str.split(",")
+l.sort()
+x=",".join(l)
+print(x)

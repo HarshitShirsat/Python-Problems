@@ -1,0 +1,209 @@
+Python Problems
+
+1. Consider two strings, String1 and String2 and display the merged_string as output.
+The merged_string should be the capital letters from both the strings in the order they
+appear.
+Sample Input:
+String1:
+I Like C
+String
+2: Mary Likes Python
+Merged_string should be
+ILCMLP
+
+2. Write a program which will find all such numbers which are divisible by 7 but are
+not a multiple of 5, between 2000 and 3200 (both included). The numbers obtained
+should be printed in a comma separated s equence on a single line.
+
+3. Write a program which accepts a sequence of comma separated numbers from
+console and generate a list and a tuple which contains every number.
+Suppose the following input is supplied to the program:
+34,67,55,33,12,98
+Then, the output should be:
+['34', '67', '55', '33', '12', '
+('34', '67', '55', '33', '12', '
+
+4. Write a program that accepts a comma separated sequence of words as input and
+prints the words in a comma separated sequence after sorting them alphabetically.
+Suppose the following input is supplied to the program:
+without,hello,bag,world
+Then, the output should be:
+bag,hello,without,world
+
+5. Write a Python program that displays the number of days in the years from 2010 to
+2020.
+
+6. The finance department of a company wants to calculate the monthly pay of one of
+its employee. Monthly pay should be calculated as mentioned in the formula below
+and display all the employee details.
+Monthly Pay= No. of hours worked in a week * Pay rate per hour * No .of
+weeks in a m onth.
+Write a Python Program to implement the problem.
+Write a Python Program to implement the problem.
+
+7. The finance department of a company wants to calculate the monthly net pay of one The finance department of a company wants to calculate the monthly net pay of one of its employee by finding the income tax to be paid (in Indian Rupees) and the net of its employee by finding the income tax to be paid (in Indian Rupees) and the net salary after the income tax deducsalary after the income tax deduction. The employee should pay the income tax based tion. The employee should pay the income tax based on the following table:on the following table: Gross Salary(In Rs)Gross Salary(In Rs) Tax PercentageTax Percentage Below 5,000Below 5,000 NilNil 5,001 to 10,0005,001 to 10,000 10%10% 10,001 to 20,00010,001 to 20,000 20%20% More than 20,000More than 20,000 30%30%
+Display the employee id, basic salary, allowances, gross pay,
+Display the employee id, basic salary, allowances, gross pay, income tax and income tax and net pay using Python Programming.net pay using Python Programming.
+
+8. In the retail application, display the details of the customer like bill id, customer id, In the retail application, display the details of the customer like bill id, customer id, bill amount and customer name. But the retail shop wants the customer name to be bill amount and customer name. But the retail shop wants the customer name to be between 3 to 20 characters. Write abetween 3 to 20 characters. Write a Python Program to implement the case study.Python Program to implement the case study.
+
+9. Write a Python program to check whether the given string is palindrome or not.Write a Python program to check whether the given string is palindrome or not.
+
+10. Write a Python program to generate first ‘n’ Fibonacci numbers.Write a Python program to generate first ‘n’ Fibonacci numbers.
+
+11. Write a program to count and display the number of capital lettersWrite a program to count and display the number of capital letters in a given string.in a given string.
+
+12. Write a program to count the number of each vowel in a given string.Write a program to count the number of each vowel in a given string.
+
+13. Write a program to remove all punctuations like “’!()Write a program to remove all punctuations like “’!()--[]{};:’’’,[]{};:’’’,\\,<>,/,?,@,#,$,%^&*_~” from the string provided by the user.,<>,/,?,@,#,$,%^&*_~” from the string provided by the user.
+
+14. Write a Python Program to search a givenkWrite a Python Program to search a givenkey element using Binary Search ey element using Binary Search Technique.Technique.
+
+15. (Display matrix of 0s and 1s) Write a function that displays an n-by-n matrix using the
+following header:
+def printMatrix(n):
+Each element is 0 or 1, which is generated randomly. Write a test program that prompts the
+user to enter n and displays an n-by-n matrix.
+Sample run:
+Enter n: 3
+0 1 0
+0 0 0
+1 1 1
+
+16. (Find the index of the smallest element) Write a function that returns the index of the smallest
+element in a list of integers. If the number of such elements is greater than 1, return the smallest
+index. Use the following header:
+def indexOfSmallestElement(lst):
+Write a test program that prompts the user to enter a list of numbers, invokes this function to return
+the index of the smallest element, and displays the index.
+
+17. Write the following function that tests whether the list has four consecutive numbers with the
+same value:
+def isConsecutiveFour(values):
+Write a test program that prompts the user to enter a series of integers and reports whether the series
+contains four consecutive numbers with the same value.
+
+18. Write a program that receives two numbers from the text fields and calculates the sum and then
+displays it in a message box. Generate an exception if the first number is less than the second.
+
+19. Consider the scenario of processing marks of students for a course in student management
+system. Given below is the list of marks scored by students. Find top three scorers for the course
+and also display the average marks scored by all students. Implement the solution using Python
+Programming.
+Student Name Marks Scored
+John 86.5
+Jack 91.2
+Jill 84.5
+Harry 72.1
+Joe 80.5
+
+20. Design a class named Rectangle to represent a rectangle. Class contains:
+ Two data fields named width and height.
+ A constructor that creates a rectangle with the specified width and height.
+ A method named getArea() that returns the area of this rectangle.
+Write a program that creates ‘n’ number of Rectangle objects. Read values of width and height
+from the key board for each Rectangle instance. Display the width and height of the rectangle
+having maximum and min area.
+
+21. Design a class named Account that contains:
+ A private int data field named accountno for the account.
+ A private float data field named balance for the account.
+ A constructor that creates an account with the specified accountno and nitial balance (default
+100).
+ A method named withdraws that withdraws a specified amount from the account. A
+minimum balance of 100 should be maintained for each account.
+ A method named deposit that deposits a specified amount to the specific account.
+Write a program that maintains ‘n’ number of Account objects with unique account no and supports
+following operations.
+a) New account creation
+b) deposit operation for a given accountno
+c) withdraw operation for a given account no
+d) Display account no with highest balance
+
+22. Design a class named Account that contains:
+ A private int data field named id for the account.
+ A private float data field named balance for the account.
+ A private float data field named annualInterestRate that stores the current interest rate.
+ A constructor that creates an account with the specified id (default 0), initial balance
+(default 100), and annual interest rate (default 0).
+ The accessor and mutator methods for id , balance , and annualInterestRate .
+ A method named getMonthlyInterestRate() that returns the monthly interest rate.
+ A method named getMonthlyInterest() that returns the monthly interest.
+ A method named withdraws that withdraws a specified amount from the account.
+ A method named deposit that deposits a specified amount to the account.
+(Hint: The method getMonthlyInterest() is to return the monthly interest amount, not the interest
+rate. Use this formula to calculate the monthly interest: balance*monthlyInterestRate.
+monthlyInterestRate is annualInterestRate / 12 . Note that annualInterestRate is a percent (like
+4.5%). You need to divide it by 100 .)
+Write a test program that creates an Account object with an account id of 1122, a balance of $20,000,
+and an annual interest rate of 4.5%. Use the withdraw method to withdraw $2,500, use the deposit
+method to deposit $3,000, and print the id, balance, monthly interest rate, and monthly interest.
+
+23. Create a GUI that is having a text box to enter the name, radio button to select the gender, check-box
+to choose hobbies. Write a function that’s gets called on the button click to display these values as
+labels.
+
+24. Develop a Tkinter based python program to perform arithmetic operations add,subtract,mul and div
+of two numbers. The numbers should be read using two different text fields and there should be four
+separate buttons for performing each operation. On clicking the button, the result should be
+displayed in a separate message dialog box.
+
+25.Write a program that calculates the future value of an investment at a given interest rate for a specified
+number of years. The formula for the calculation is as follows:
+futureValue=investmentAmount*(1+monthlyInterestRate)years*12.
+Use textfields for users to enter the investment amount,years,and interest rate.
+DisplaythefutureamountinalabelfieldwhentheuserclickstheCalculatebutton, as shown in Figure
+above.
+
+26. Demonstrate the working of Operator Overloading in python (+, - ,* , str, < , >)
+
+27. Write a program that will count the number of characters, words,and lines in a file.
+Words are separated by a white-space character. Your program should prompt the user
+to enter a filename.
+
+28. Suppose that a text file contains marks for 6 courses for a student in a line. Each course
+marks is separated by space as delimiter. File contains marks for ‘n’ number of
+students in separate lines. Write a program that reads the marks from the file for each
+student and displays the total and average. Your program should prompt the user to enter a
+filename.
+
+29. Develop python program to perform the below mentioned operations.
+a) display total marks scored by each student
+b) Display top scorer and the top score
+Scenario: There are 8 students and answers t o 10 multiple choice questions of each
+student is stored in a file called marks.txt. Each answer is delimited by space. Each
+line provides a student’s answers to the questions, as shown below.The answer key is
+stored in a file named keys.txt. The format of answer keys as shown below.
+Marks.txt
+Key D B D C C D A E A D
+
+Student0 A B A C C D E E A D
+Student1 D B A B C A E E A D
+Student2 E D D A C B E E A D
+Student3 C B A E D C E E A D
+Student4 A B D C C D E E A D
+Student5 B B E C C D E E A D
+Student6 B B A C C D E E A D
+Student7 E B E C C D E E A D
+
+30. Write a program to create a list to maintain country names, respective capital and its
+population. The program should support following operations
+a) To enter country name, capital and its population.
+b) To accept the name of a country as an input and print the corresponding capital
+name and population as output. Otherwise, the program should print an
+appropriate message if the country is not found in the list.
+c) To display the country name with highest population.
+
+31. Using Tkinter interface display student details such as
+name(textfield),age(textfield),branch(textfield) by performing search operation for
+the user entered usn via textfield. Information is displayed upon click on the search
+button. Students information is stored in a database by considering the table
+Student(USN:String,Name:String,Age:Int,Branch:String).Display the success and failure
+message using MessageBox.
+
+32. Develop a python program to perform the following operations on a database
+by considering the table Employee (SSN:Int, Fname: String, LName: String,
+Age:Int,Place:String,Salary:Int).Display the success and failure message.
+a. Insert employee details
+b. Delete a employee record
+c. Update the employee details.
